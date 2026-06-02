@@ -1,0 +1,28 @@
+# manuscript / submission materials — kept local, not in the code repo
+paper/
+
+# large raw sample dumps (~0.5 GB) — regenerable via repro/ (see repro/REPRO.md)
+dumps/
+
+# agent/IDE state
+.claude/
+
+# python
+**/__pycache__/
+*.pyc
+*.pyo
+
+# os
+.DS_Store
+
+# latex build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+paper/*.pdf
+
+# uv virtualenv
+.venv/
